@@ -17,7 +17,7 @@ Everything under this is under CC0 (public domain). If you see something that co
         <source media="(prefers-color-scheme: light)" srcset="./imgs/TankWeaselDark.png">
         <img alt="Tank Weasel Logo"src="./imgs/TankWeaselDark.png" width="64">
     </picture>
-    <p>Tank weasel<p>
+    <p>Tank weasel</p>
 </a>
 
 <a href="./DurrV1Documentation.pdf">
@@ -26,7 +26,7 @@ Everything under this is under CC0 (public domain). If you see something that co
         <source media="(prefers-color-scheme: light)" srcset="./imgs/DurrV1Dark.png">
         <img alt="Durr V1 Logo" src="./imgs/DurrV1Dark.png" width="64">
     </picture>
-    <p>Durr V1<p>
+    <p>Durr V1</p>
 </a>
 
 ---
