@@ -244,15 +244,16 @@ _If you have a more user-friendly way of doing this, please contact me via metho
 
 | Folder/File name | Description |
 | --- | --- |
-| textures | See [Textures](#texture-files) |
+| textures | See [Textures](#textures-1) |
 | `<version number>`.blend file | Blender (3.6+) file for mesh editing and texturing. <https://www.blender.org/download/lts/3-6/> |
 | Pooltoy Parts.fbx | fbx file for the pooltoy nozzle and handles, includes blendshapes to adjust to the main model. |
 | TankWeasel-`<version number>`.unitypackage | Contains Unity Scene, prefabs, and assets for VRChat. |
 | tankWeasel.fbx | fbx file for the main model. |
 | tankWeasel_Quest.fbx | fbx file for the Quest version of the main model. |
+| TexturePadding.blend | Blender file for [Texture dilation/padding](#uv-paddingtexture-paddingtexture-dilation) |
 | texturePostProcessing.kra | Krita (5.2+) file for texturing. <https://krita.org/en/download/> |
 
-### [Textures](#texture-files)
+### Textures 
 
 | Folder/File name | Description |
 | --- | --- |
@@ -282,7 +283,7 @@ If you want to customize the eye color, or add ambient occlusion to the texture,
 A UV layout overlay is included in the krita file for 2d texturing workflows. The UV map is the same for both the Quest and the PC version of the mesh.
 
 
-### UV padding/texture padding/texture dilation 
+### UV padding/texture padding/texture dilation
 
 A blender file “TexturePadding.blend” is included in the package. 
 
