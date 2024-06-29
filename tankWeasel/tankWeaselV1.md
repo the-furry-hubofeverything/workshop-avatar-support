@@ -9,7 +9,6 @@
 > Thank you for supporting me by purchasing this avatar!  
 > \- Hubble the Wolverine
 
-
 ## **Usage License**
 
 - Due to this product being a digital product, refunds are NOT possible.
@@ -36,9 +35,17 @@ As long as the major version of the avatar base stays the same (the first number
 If you see an inconsistency, please contact me with methods outlined in the last section of this manual.
 
 
-## **Gesture/Expression mapping**
+## **Default Gesture/Expression mappings**
 
-\[Insert mapping illustration here]
+| Gesture | Expression |
+|---------|------------|
+| Neutral/HandOpen | Relaxed (non-emotive) face |
+| Fist | Blep |
+| FingerPoint | Sus |
+| Victory | Happy |
+| RockNRoll | Annoyed |
+| HandGun | Shock |
+| ThumbsUp | Smug/Annoyed |
 
 
 ## **Project setup**
@@ -113,7 +120,7 @@ The textures are under the “texture” folder. If a custom texture is used, it
 
 ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXcZtGlbXEbI_jRykMhZ0ugwI9e0qBMyLhLLcCd2VjkN-caLGHdfySD7u9E55awzzashoMvYbeGCjfOO_BoWhPLN1QSrEA_BI7_k9CMQapRTneUVrpQnNESquUC3oBTTW3qImTXouTaL3NY4T0NCUyNwGk1x?key=leSC4NkGoMp6FWrTEOeY3Q)
 
-### Materials
+#### Materials
 
 The materials are under the “Materials” folder.
 
@@ -122,7 +129,7 @@ There are both PC and Quest versions of the material (Quest versions end with \_
 For the Unity standard shader, a metallic smoothness map (with smoothness being the alpha channel of the metallic map) and a normal map is included.
 
 
-### Maker card
+#### Maker card
 
 To remove the maker card, expand the prefab, and find the maker card under Armature > Hips > Spine > Chest > maker card, and delete it. 
 
@@ -131,7 +138,7 @@ The texture is imported with a resolution of 512x512 to minimize performance imp
 ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXcnj6z6Cvz2fd4ET0vDM8_N8MYJmVDEq7hflIVC8I5JJzYP4iSeOQhYde4AVDFRag8RvwoOuVBLmJ5vuwX8yFl0kZCdMHMfoYRkKrlzWz0_4dn3SiXdEJGwnebnkdrGIXGtCdfNatBRiM9KcP3U5_ak9eQ2?key=leSC4NkGoMp6FWrTEOeY3Q)
 
 
-### Physbones
+#### Physbones
 
 There are Physbones for the ear, the belly, and the tail. The Physbone settings are separated out using empties for ease of use. 
 
@@ -140,7 +147,7 @@ Remember to update the physbone components on the Quest version to make sure tha
 ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXewWeL7ZncmiDSHpPTRvRk7gG81f-VjQtwNoL8UqItEkjkb_TAmBwnrj6SkbTX68kzRk6BKnefzTuw4g2rfhqaLI5VttLMZSitRzkygCXxFe2xUZFdHfYGA9vIivTHqu5TFjEi-cgNZD-H0aZwC7-OYEnO-?key=leSC4NkGoMp6FWrTEOeY3Q)
 
 
-### Gestures and Expressions
+#### Gestures and Expressions
 
 The tank weasel uses custom FX and gesture layers for its expression and gestures, under Assets > Animation > FX.
 
@@ -151,7 +158,7 @@ The reason that the tank weasel doesn’t use VRCFury gesture components is beca
 All expression clips are under Assets > Animation > Clips > Expressions, animated using Unified Expression blendshapes. There are no dedicated blendshapes for specific expressions.
 
 
-#### Automatic Thumb Detection
+##### Automatic Thumb Detection
 
 The automatic thumb detection is a system that is added in the “Expressions” empty. It consists of VRC contact receivers parented on the elbow bone, contact senders on the thumb, and the blend tree in the gesture layer.
 
@@ -188,7 +195,7 @@ ThumbsUpL/R represents the distance that the thumb contact sender is to the rece
 TL;DR - You can replace the thumbs up/down expression by replacing the corresponding clips: “Smug” for thumbs up, “Angry” for thumbs down.
 
 
-#### Nose lick
+##### Nose lick
 
 When enabled, the animated tongue will have the model lick its own nose every \~30 seconds. You can disable this by going into Expressions > Settings > Nose Lick under the radial menu.
 
@@ -197,7 +204,7 @@ The nose licking behavior is controlled by the “Nose Lick” layer in the FX a
 To create a custom expression that pauses the nose lick behavior, set the FX float “PauseNoseLick” to 1.
 
 
-#### Body Settings
+##### Body Settings
 
 Most of the body settings should be saved and available via the “Body” menu. 
 
@@ -227,63 +234,36 @@ _If you have a more user-friendly way of doing this, please contact me via metho
 
 ## **Files**
 
-**_As most of my software stack in my workflow is open source, I’m unable to provide Substance Painter or Photoshop files._**
+> [!IMPORTANT]
+> As most of my software stack in my workflow is open source, I’m unable to provide Substance Painter or Photoshop files.  
+>  
+> Krita is able to export files as psd, but [photoshop files are not an open standard and are very hard to work with](https://docs.krita.org/en/general_concepts/file_formats/file_psd.html). YMMV
 
-Included files:
 
-- .blend file 
+### Included files
 
-  - Blender (3.6+) file for mesh editing and texturing
+| Folder/File name | Description |
+| --- | --- |
+| textures | See [Textures](#texture-files) |
+| `<version number>`.blend file | Blender (3.6+) file for mesh editing and texturing. <https://www.blender.org/download/lts/3-6/> |
+| Pooltoy Parts.fbx | fbx file for the pooltoy nozzle and handles, includes blendshapes to adjust to the main model. |
+| TankWeasel-`<version number>`.unitypackage | Contains Unity Scene, prefabs, and assets for VRChat. |
+| tankWeasel.fbx | fbx file for the main model. |
+| tankWeasel_Quest.fbx | fbx file for the Quest version of the main model. |
+| texturePostProcessing.kra | Krita (5.2+) file for texturing. <https://krita.org/en/download/> |
 
-  - <https://www.blender.org/download/lts/3-6/>
+### [Textures](#texture-files)
 
-- .kra file
-
-  - Krita (5.2+) file for texturing
-
-  - <https://krita.org/en/download/>
-
-  - Krita is able to export files as psd, but [photoshop files are not an open standard and are very hard to work with](https://docs.krita.org/en/general_concepts/file_formats/file_psd.html). YMMV
-
-- Unitypackage for VRChat
-
-- Textures
-
-  - Masks
-
-    - These textures are not necessary for the avatar to work, but may be useful for texture creation, baking, and filtering specific parts of the avatar.
-
-  - Pooltoy
-
-    - Pooltoy related textures, including a bump map and normal map for seams, and Albedo for the pooltoy nozzle and handles.
-
-  - Generic
-
-    - Albedo and flattened default texture map of the “Generic” variant.
-
-  - Forest
-
-    - Albedo and flattened default texture map of the “Forest” variant.
-
-  - Spirit
-
-    - Albedo and flattened default texture map of the “Spirit” variant.
-
-  - AO.png
-
-    - Ambient Occlusion map.
-
-  - MetallicSmoothness.png
-
-    - Metallic smoothness map for default Unity shaders.
-
-  - Normal.png
-
-    - Normal map that adds the bumpiness on the nose, mouth, and paws.
-
-  - Smoothness.png
-
-    - Smoothness map for other shaders that are not compatible with metallic smoothness maps.
+| Folder/File name | Description |
+| --- | --- |
+| Masks | These textures are not necessary for the avatar to work, but may be useful for texture creation, baking, and filtering specific parts of the avatar.|
+| Generic | Albedo and flattened default texture map of the “Generic” variant. |
+| Forest | Albedo and flattened default texture map of the “Forest” variant. |
+| Spirit | Albedo and flattened default texture map of the “Spirit” variant. |
+| AO.png | Ambient Occlusion map. |
+| MetallicSmoothness.png | Metallic smoothness map for default Unity shaders. |
+| Normal.png | Normal map that adds the bumpiness on the nose, mouth, and paws. |
+| Smoothness.png | Smoothness map for other shaders that are not compatible with metallic smoothness maps. |
 
 
 ## **Texturing**
@@ -319,13 +299,13 @@ To use it, make sure the resolution in the render settings is set to the desired
 
 2. Open the krita file (file ending in .kra)
 
-3. Replace “textures/Albedo.png” with your own albedo texture\
-   _Note: if you want to use a different file path, change the file path under layer properties._\
+3. Replace “textures/Albedo.png” with your own albedo texture
+   - _Note: if you want to use a different file path, change the file path under layer properties._\
    ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXdzG6FkqueMuHjWZm3E-UG2oUs5N8-cS6wyrD4aVemJ_LXlrY4aCR_hNMqYalNVPUzn4VSuHqSdmL7brM-VpYP4sUWhgtXZdEHhdWUsNZ-gEh8HREzgjIOBNm0ZODjneS0h4s66t7bcc9DYZjL3mw6dtDQL?key=leSC4NkGoMp6FWrTEOeY3Q)
 
 4. Change the color of the iris, pupil, and the Sclera (white part) of the eye by going into layer properties of each of the fill layers. 
 
-   1. If painting is needed, you can right click the layer, go to ‘convert’ and convert the layer to a paint layer.
+   - If painting is needed, you can right click the layer, go to ‘convert’ and convert the layer to a paint layer.
 
 5. Export the file as an PNG, and import it into the Unity project. (see the “Project setup” section for specifics.)
 
@@ -377,30 +357,30 @@ This is done to preserve the hierarchy structure for custom animations, MMD etc.
 
 ### VRM Export
 
-Since the Tank Weasel uses VRCFury primarily, the avatar from the scene cannot be directly exported as an VRM. However, you can try this method [Adding VRCFury Assets to your VTuber (.vrm) Avatar](https://www.youtube.com/watch?v=XMQ43O65TXo) to make a compiled copy of the avatar.
+Since the Tank Weasel uses VRCFury primarily, the avatar from the scene cannot be directly exported as an VRM. However, you can try [this method](https://www.youtube.com/watch?v=XMQ43O65TXo) to make a compiled copy of the avatar. (Build VRCFury Test Copy)
 
 This method is not officially supported, but if it works, please let me know (contact information is at the last section of this manual).
 
 
 ## **Acknowledgements**
 
-My deepest appreciation for the following people, the Tank Weasel wouldn’t be the model that it is without them:
-
-Bionic the Weird, for sharing some artistic notes and references that informed the shape of the model.
-
-Fractarine, Freeborn, Fane, Tong, Cliff, Ozlo, Arlow, Pioneer, and Steele for providing feedback and helping with beta testing.
-
-Haydy Zeth, Midnightweasel and Spitly for helping me make the ‘feminine’ shape key. I’m not good at feminine anatomy.
-
-Simmer22, bigdaddyrhino and ectoimp for advice on packaging and UX design.
-
-Bluefish, Tox, Voxian, ZealotDKD, and others in the Virtual Limb Discord for advice and company while packaging the avatar.
-
-Hiyu, who also inspired some design/packaging decisions from their work in the longboi.
-
-Ludwig Göff, for providing many facts about wolverines and feedback on the model.
-
-Tresch, Ella Fox, Vivi, Kay Ohtie, and others in the Furry VRChat Creators telegram chat, for helping me with troubleshooting Blender and Unity.
+> My deepest appreciation for the following people, the Tank Weasel wouldn’t be the model that it is without them:
+> 
+> Bionic the Weird, for sharing some artistic notes and references that informed the shape of the model.
+> 
+> Fractarine, Freeborn, Fane, Tong, Cliff, Ozlo, Arlow, Pioneer, and Steele for providing feedback and helping with beta testing.
+> 
+> Haydy Zeth, Midnightweasel and Spitly for helping me make the ‘feminine’ shape key. I’m not good at feminine anatomy.
+> 
+> Simmer22, bigdaddyrhino and ectoimp for advice on packaging and UX design.
+> 
+> Bluefish, Tox, Voxian, ZealotDKD, and others in the Virtual Limb Discord for advice and company while packaging the avatar.
+> 
+> Hiyu, who also inspired some design/packaging decisions from their work in the longboi.
+> 
+> Ludwig Göff, for providing many facts about wolverines and feedback on the model.
+> 
+> Tresch, Ella Fox, Vivi, Kay Ohtie, and others in the Furry VRChat Creators telegram chat, for helping me with troubleshooting Blender and Unity.
 
 
 ## **Contact**
