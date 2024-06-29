@@ -9,23 +9,28 @@
 > Thank you for supporting me by purchasing this avatar!  
 > \- Hubble the Wolverine
 
+The table of contents is on the top right:
+![A picture showing the location of where the outline buttons is](./imgs/outlineLocation.png)
 ## Usage License
 
-- Due to this product being a digital product, refunds are NOT possible.
-
-- If you are selling any customizations, modifications, or retextures of the Tank Weasel model, make sure that both you (the artist) and the customer own the model.
-
-- Please don’t claim the Tank Weasel model (or its default textures and assets) as your own work.
-
-- Please don’t resell, redistribute, or share any of the Tank Weasel files. 
-
-  - If you are an asset creator, please find a way to distribute the changes on their own.
-
-- Please ask before using this model for commercial purposes.
-
-- Please do not use this model for anything related to Cryptocurrency or NFTs.
-
-- Please ask before using this model for use in machine learning algorithms, or “AI”, especially (but not limited to) generative models.
+> [!IMPORTANT]  
+> By using the Tank Weasel, you agree to the following:
+>
+> - Due to this product being a digital product, refunds are NOT possible.
+> 
+> - If you are selling any customizations, modifications, or retextures of the Tank Weasel model, make sure that both you (the artist) and the customer own the model.
+> 
+> - Please don’t claim the Tank Weasel model (or its default textures and assets) as your own work.
+> 
+> - Please don’t resell, redistribute, or share any of the Tank Weasel files. 
+>
+> - If you are an asset creator, please find a way to distribute the changes on their own.
+>
+> - Please ask before using this model for commercial purposes.
+>
+> - Please do not use this model for anything related to Cryptocurrency or NFTs.
+>
+> - Please ask before using this model for use in machine learning algorithms, or “AI”, especially (but not limited to) generative models.
 
 
 ## Version guarantee
@@ -59,7 +64,8 @@ When setting up the project, open “default.scene” for a preconfigured scene.
 The avatar is nested into the prefab. In the side bar, you’ll see “Tank Weasel > _Avatar_ > (contents)”. Avatar is where the avatar root (VRC avatar descriptor, blueprint ID etc.) is.   
 ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXeSg4Vjb3MwL-YMtgTVWPFVRTg7KC0Jg2zziFcaEJWsWXnrD5xcJDvWAD8ehFYcL12TZ5gT41OSVTlE2BH2buvYsd4AjvIuocYVc32dwcl9mgCpYs4v-OdPD4OKdMYx2SymTNA8o42HjwW2rrGiRPQ4B3bG?key=leSC4NkGoMp6FWrTEOeY3Q)
 
-Please do not unpack the prefab, as it will prevent the avatar from updating. The changes will be preserved as overrides to the prefab.
+> [!NOTE]  
+> Please do not unpack the prefab, as it will prevent the avatar from updating. The changes will be preserved as overrides to the prefab.
 
 To view changes to the prefab from the default, select “Tank Weasel” and open the overrides menu from the inspector.
 
@@ -107,7 +113,7 @@ Please refer to the documentation for these addons for installation instructions
 
 #### UV map layout
 
-![](https://lh7-us.googleusercontent.com/docsz/AD_4nXekhzhcoBPXKvGy4j-CrlfhILsKHk8nx_ATK44Q08EYJlkQxpZ_t3pFxDyx89AW75OWKAiQ0FMj52SI7aSGnV2fNgz8q6CVIjhcxizvc-01uhUAj5ehJ-nzN8ZPqeGpl676Ps5cN_Jgx5UzIgj5Qs8uRHU?key=leSC4NkGoMp6FWrTEOeY3Q)
+![The UV map of the Tank Weasel Model, labeled by island](./imgs/UV5Explainer.png)
 
 As long as the version of the tank weasel remains “1.x.x”, this UV map will stay consistent. If there’s any deliberate changes to the UV map at all, the major version will be bumped. 
 
@@ -153,7 +159,7 @@ The tank weasel uses custom FX and gesture layers for its expression and gesture
 
 The reason that the tank weasel doesn’t use VRCFury gesture components is because of a limitation - At the time of making, it doesn’t include a toggle where you can prevent gestures from triggering expressions. I’ve included this toggle under “Expressions > Settings > Lock Face” in the radial menu.
 
-![](https://lh7-us.googleusercontent.com/docsz/AD_4nXcDA8XbMymX9UKDwUOR91rIIrB_58-2LrhGxPVGARE3tlg5JUn1qfqp3zDNMjjUkadAuHC_1EqgUVak-Hjh1dXh4m2T2tHQ7Seq6nMFmFC-hapd5hFcF6POWQux1ZBgJWRJu9NqoasB4oFH4aoYgTAL1bh7?key=leSC4NkGoMp6FWrTEOeY3Q)
+<!-- ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXcDA8XbMymX9UKDwUOR91rIIrB_58-2LrhGxPVGARE3tlg5JUn1qfqp3zDNMjjUkadAuHC_1EqgUVak-Hjh1dXh4m2T2tHQ7Seq6nMFmFC-hapd5hFcF6POWQux1ZBgJWRJu9NqoasB4oFH4aoYgTAL1bh7?key=leSC4NkGoMp6FWrTEOeY3Q) -->
 
 All expression clips are under Assets > Animation > Clips > Expressions, animated using Unified Expression blendshapes. There are no dedicated blendshapes for specific expressions.
 
@@ -166,7 +172,7 @@ When you perform a thumbs up, the thumb would be touching the contact receiver, 
 
 You can lock this detection by going into “Expressions > Settings > Thumb Detection Mode”, where you can force the thumbs up/down expression.
 
-![](https://lh7-us.googleusercontent.com/docsz/AD_4nXeC0BjxoqPZBCXP0l-TpJ9hRGvhW8l2nUqeQJ95Wa4MQ2-43NXTREgHstoRk-qaRXN5Ip0AmFACbW_kQpix2MUnJ__tALVH73QGTRZEng2tgZKTy90hdR0VatpTlEhEh3KZkBmzqiHXK4j3EkfctdFkMkM?key=leSC4NkGoMp6FWrTEOeY3Q)
+<!-- ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXeC0BjxoqPZBCXP0l-TpJ9hRGvhW8l2nUqeQJ95Wa4MQ2-43NXTREgHstoRk-qaRXN5Ip0AmFACbW_kQpix2MUnJ__tALVH73QGTRZEng2tgZKTy90hdR0VatpTlEhEh3KZkBmzqiHXK4j3EkfctdFkMkM?key=leSC4NkGoMp6FWrTEOeY3Q) -->
 
 In the FX layer, the automatic thumb detection is implemented in the “ThumbsUp” state in each hand’s animation layer.
 
@@ -208,7 +214,7 @@ To create a custom expression that pauses the nose lick behavior, set the FX flo
 
 Most of the body settings should be saved and available via the “Body” menu. 
 
-![](https://lh7-us.googleusercontent.com/docsz/AD_4nXfYyzVpXj2T6k84fWXjbVCS2-c1XJuEBvrlZIeM05RcoCDHTUIvibLYs6sOy_Oc56z6kflxutzX9Vuyo9zRIu35-WTHtvcrdpijjzzay85noZimBucikjLX5q17djd9YY4Fio--k_Em7e91xPXsAK_XJWYI?key=leSC4NkGoMp6FWrTEOeY3Q)
+<!-- ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXfYyzVpXj2T6k84fWXjbVCS2-c1XJuEBvrlZIeM05RcoCDHTUIvibLYs6sOy_Oc56z6kflxutzX9Vuyo9zRIu35-WTHtvcrdpijjzzay85noZimBucikjLX5q17djd9YY4Fio--k_Em7e91xPXsAK_XJWYI?key=leSC4NkGoMp6FWrTEOeY3Q) -->
 
 The idle animation blend tree (for breathing, twitching etc) is located inside the FX controller, under the base layer.
 
