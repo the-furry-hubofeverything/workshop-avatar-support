@@ -1,3 +1,9 @@
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="../imgs/TankWeasel.png">
+    <source media="(prefers-color-scheme: light)" srcset="../imgs/TankWeaselDark.png">
+    <img alt="Tank Weasel Logo"src="../imgs/TankWeaselDark.png" width="64">
+</picture>
+
 # **Tank Weasel Manual**
 
 > This manual assumes that you have knowledge about uploading avatars and a texturing workflow. 
