@@ -9,7 +9,7 @@
 > Thank you for supporting me by purchasing this avatar!  
 > \- Hubble the Wolverine
 
-## **Usage License**
+## Usage License
 
 - Due to this product being a digital product, refunds are NOT possible.
 
@@ -28,14 +28,14 @@
 - Please ask before using this model for use in machine learning algorithms, or “AI”, especially (but not limited to) generative models.
 
 
-## **Version guarantee**
+## Version guarantee
 
 As long as the major version of the avatar base stays the same (the first number of the version, like 1.x.x), the UV map and file structure of the project should stay the same.
 
 If you see an inconsistency, please contact me with methods outlined in the last section of this manual.
 
 
-## **Default Gesture/Expression mappings**
+## Default Gesture/Expression mappings
 
 | Gesture | Expression |
 |---------|------------|
@@ -48,7 +48,7 @@ If you see an inconsistency, please contact me with methods outlined in the last
 | ThumbsUp | Smug/Annoyed |
 
 
-## **Project setup**
+## Project setup
 
 Please refer to <https://creators.vrchat.com/sdk/> to set up VCC and the avatar project. VCC is strongly recommended for this avatar.
 
@@ -232,7 +232,7 @@ Make sure to override both keys on frame 0 and frame 1, or it will flicker betwe
 _If you have a more user-friendly way of doing this, please contact me via methods outlined in the last section of this manual._
 
 
-## **Files**
+## Files
 
 > [!IMPORTANT]
 > As most of my software stack in my workflow is open source, I’m unable to provide Substance Painter or Photoshop files.  
@@ -267,7 +267,7 @@ _If you have a more user-friendly way of doing this, please contact me via metho
 | Smoothness.png | Smoothness map for other shaders that are not compatible with metallic smoothness maps. |
 
 
-## **Texturing**
+## Texturing
 
 _Shameless self promo: If you like to commission me for a retexture, check_ [_https://gulo.dev_](https://gulo.dev) _for the status and pricing of my retexture commissions!_
 
@@ -313,7 +313,8 @@ To use it, make sure the resolution in the render settings is set to the desired
 
 ## **Exporting model**
 
-**!!! IMPORTANT !!! You do not need to use Blender to upload or customize the texture of the Tank Weasel. See “Project setup” or “Texturing” for more information.**
+> [!IMPORTANT]  
+> You do not need to use Blender to upload or customize the texture of the Tank Weasel. See “Project setup” or “Texturing” for more information.
 
 
 ### Customizing model  
@@ -363,28 +364,28 @@ Since the Tank Weasel uses VRCFury primarily, the avatar from the scene cannot b
 This method is not officially supported, but if it works, please let me know (contact information is at the last section of this manual).
 
 
-## **Acknowledgements**
+## Acknowledgements
 
-> My deepest appreciation for the following people, the Tank Weasel wouldn’t be the model that it is without them:
-> 
-> Bionic the Weird, for sharing some artistic notes and references that informed the shape of the model.
-> 
-> Fractarine, Freeborn, Fane, Tong, Cliff, Ozlo, Arlow, Pioneer, and Steele for providing feedback and helping with beta testing.
-> 
-> Haydy Zeth, Midnightweasel and Spitly for helping me make the ‘feminine’ shape key. I’m not good at feminine anatomy.
-> 
-> Simmer22, bigdaddyrhino and ectoimp for advice on packaging and UX design.
-> 
-> Bluefish, Tox, Voxian, ZealotDKD, and others in the Virtual Limb Discord for advice and company while packaging the avatar.
-> 
-> Hiyu, who also inspired some design/packaging decisions from their work in the longboi.
-> 
-> Ludwig Göff, for providing many facts about wolverines and feedback on the model.
-> 
-> Tresch, Ella Fox, Vivi, Kay Ohtie, and others in the Furry VRChat Creators telegram chat, for helping me with troubleshooting Blender and Unity.
+**My deepest appreciation for the following people, the Tank Weasel wouldn’t be the model that it is without them:**
+
+Bionic the Weird, for sharing some artistic notes and references that informed the shape of the model.
+
+Fractarine, Freeborn, Fane, Tong, Cliff, Ozlo, Arlow, Pioneer, and Steele for providing feedback and helping with beta testing.
+
+Haydy Zeth, Midnightweasel and Spitly for helping me make the ‘feminine’ shape key. I’m not good at feminine anatomy.
+
+Simmer22, bigdaddyrhino and ectoimp for advice on packaging and UX design.
+
+Bluefish, Tox, Voxian, ZealotDKD, and others in the Virtual Limb Discord for advice and company while packaging the avatar.
+
+Hiyu, who also inspired some design/packaging decisions from their work in the longboi.
+
+Ludwig Göff, for providing many facts about wolverines and feedback on the model.
+
+Tresch, Ella Fox, Vivi, Kay Ohtie, and others in the Furry VRChat Creators telegram chat, for helping me with troubleshooting Blender and Unity.
 
 
-## **Contact**
+## Contact
 
 Most of my contact information is on <https://gulo.dev>
 
