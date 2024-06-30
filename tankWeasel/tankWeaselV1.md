@@ -54,9 +54,9 @@ If you see an inconsistency, please contact me with methods outlined in the last
 | Fist | Blep |
 | FingerPoint | Sus |
 | Victory | Happy |
-| RockNRoll | Annoyed |
+| RockNRoll | Angry |
 | HandGun | Shock |
-| ThumbsUp | Smug/Annoyed |
+| ThumbsUp | [Smug/Annoyed](#automatic-thumb-detection) |
 
 
 ## Project setup
@@ -237,7 +237,7 @@ To change what the pooltoy material is based on, change the parent of the materi
 
 If you made a duplicate material for editing, you also must edit the animation clip, by assigning the FX animation controller to the avatar root, drag the animation clip into the controller, and then assign the new material to the animation clip to set it up as a key. If you made a duplicate of the animation clip, make sure to switch the clip out in the prefab as well.
 
-![](https://lh7-us.googleusercontent.com/docsz/AD_4nXflwVDfwi0l7a7dSl4zmY4-E6-0cdp3vZieOS2JlzFrl58M5-iVEWOfg02QVsaW6JM3ozaT1lT4JNp8sJhAl34CW3nJHyjAu-Z-3Ahs5ROPmF4O2iTZFSI3GwyXkSKJutJ4XcGcW1iny2qeSiJ6nFg82W__?key=leSC4NkGoMp6FWrTEOeY3Q)
+![](https://lh7-us.googleusercontent.com/docsz/AD_4nXflwVDfwi0l7a7dSl4zmY4-E6-0cdp3vZieOS2JlzFrl58M5-iVEWOfg02QVsaW6JM3oAnnoyedzaT1lT4JNp8sJhAl34CW3nJHyjAu-Z-3Ahs5ROPmF4O2iTZFSI3GwyXkSKJutJ4XcGcW1iny2qeSiJ6nFg82W__?key=leSC4NkGoMp6FWrTEOeY3Q)
 
 Make sure to override both keys on frame 0 and frame 1, or it will flicker between the original material and the edited one.
 
@@ -395,6 +395,8 @@ Hiyu, who also inspired some design/packaging decisions from their work in the l
 Ludwig Göff, for providing many facts about wolverines and feedback on the model.
 
 Tresch, Ella Fox, Vivi, Kay Ohtie, and others in the Furry VRChat Creators telegram chat, for helping me with troubleshooting Blender and Unity.
+
+Nidonocu, for providing the OOBE window template for the unitypackage.
 
 
 ## Contact
