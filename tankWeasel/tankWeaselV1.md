@@ -10,7 +10,7 @@
 > 
 > If you have trouble with anything, please contact me with the information in the last section of this manual. 
 >
-> This manual is updated regularly on [avatardocs.gulo.dev](http://avatardocs.gulo.dev). It is licensed under CC0. Feel free to contribute!
+> This manual is updated regularly on [avatardocs.gulo.dev](http://avatardocs.gulo.dev), and is licensed under CC0. Feel free to contribute!
 >
 > Thank you for supporting me by purchasing this avatar!  
 > \- Hubble the Wolverine
@@ -231,7 +231,7 @@ It’s not recommended, but if you want to “lock in” some blendshapes for op
 > [!WARNING]
 > This will add a new skinned mesh to your character, dropping its performance ranking.
 
-To add pooltoy mode, simply drag the prefab (Assets/Pooltoy Mode/Pooltoy mode) to the avatar root ("Avatar", not "Tank Weasel"), then let VRCFury do the rest.
+To add pooltoy mode, simply drag the prefab (Assets/Pooltoy Mode/Pooltoy Prefab) to the avatar root ("Avatar", not "Tank Weasel"), then let VRCFury do the rest.
 
 To change what the pooltoy material is based on, change the parent of the material (below "Shader") to the QUEST version of your body material. This will ensure quest compatibility.
 
