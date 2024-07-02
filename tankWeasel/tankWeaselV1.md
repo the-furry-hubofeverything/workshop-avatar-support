@@ -256,6 +256,7 @@ _If you have a more user-friendly way of doing this, please contact me via metho
 
 | Folder/File name | Description |
 | --- | --- |
+| Pooltoy textures | Pooltoy related textures, see [here](#pooltoy-textures) |
 | textures | See [Textures](#textures-1) |
 | `<version number>`.blend file | Blender (3.6+) file for mesh editing and texturing. <https://www.blender.org/download/lts/3-6/> |
 | Pooltoy Parts.fbx | fbx file for the pooltoy nozzle and handles, includes blendshapes to adjust to the main model. |
@@ -277,6 +278,13 @@ _If you have a more user-friendly way of doing this, please contact me via metho
 | MetallicSmoothness.png | Metallic smoothness map for default Unity shaders. |
 | Normal.png | Normal map that adds the bumpiness on the nose, mouth, and paws. |
 | Smoothness.png | Smoothness map for other shaders that are not compatible with metallic smoothness maps. |
+
+### Pooltoy textures
+| Folder/File name | Description |
+| --- | --- |
+| PooltoyAlbedo.png | Albedo for pooltoy nozzle and handles |
+| PooltoyBump.png | Bump map for Pooltoy Seams on the Tank Weasel |
+| PooltoyNormal.png | Normal map for Pooltoy Seams on the Tank Weasel |
 
 
 ## Texturing
