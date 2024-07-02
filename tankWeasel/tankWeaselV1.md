@@ -77,6 +77,9 @@ To view changes to the prefab from the default, select “Tank Weasel” and ope
 
 Here’s an example of this from the Tank Weasel public avatar:![](https://lh7-us.googleusercontent.com/docsz/AD_4nXdVb9MRmP5lZqz6m9KHvFazJ_umUOvIX-iQ_LjO-L_c1MbxA_awT_dGmERh9ppx8n5wb6WhWx_InGg4HBMWFB1BFmOFcYq9Uv-t8f4-QVgj3M-1io8dtPE4k6E9OHoLatXD_AM3FjDY3mt3dXCFqGgL2-hA?key=leSC4NkGoMp6FWrTEOeY3Q)
 
+> [!NOTE]
+> If you have trouble with the icons being in the way, you can turn it down by adjusting the icon size.
+> ![an image showing where the 3D icon slider is](./imgs/3dIconSize.png)
 
 ### Updating
 
