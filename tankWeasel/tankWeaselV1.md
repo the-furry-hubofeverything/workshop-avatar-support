@@ -382,7 +382,7 @@ This method is not officially supported, but if it works, please let me know (co
 
 Bionic the Weird, for sharing some artistic notes and references that informed the shape of the model.
 
-Fractarine, Freeborn, Fane, Tong, Cliff, Ozlo, Arlow, Pioneer, and Steele for providing feedback and helping with beta testing.
+Fractarine, Freeborn, Fane, EmeraldtheShiba, Tong, Cliff, Ozlo, Arlow, Pioneer, and Steele for providing feedback, helping with beta testing, and catching countless amounts of bugs.
 
 Haydy Zeth, Midnightweasel and Spitly for helping me make the ‘feminine’ shape key. I’m not good at feminine anatomy.
 
@@ -395,6 +395,8 @@ Hiyu, who also inspired some design/packaging decisions from their work in the l
 Ludwig Göff, for providing many facts about wolverines and feedback on the model.
 
 Tresch, Ella Fox, Vivi, Kay Ohtie, and others in the Furry VRChat Creators telegram chat, for helping me with troubleshooting Blender and Unity.
+
+Danny Grey, for making the video to promote the Tank Weasel.
 
 Nidonocu, for providing the OOBE window template for the unitypackage.
 
