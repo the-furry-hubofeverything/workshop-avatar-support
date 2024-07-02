@@ -303,6 +303,8 @@ The image file must have a transparent area for the area being filled.
 
 To use it, make sure the resolution in the render settings is set to the desired dimensions (4096x4096 is set for default for albedo textures), then render!
 
+If you want to pad something that uses the Tank Weasel UV islands, you can also use the alpha mask from `textures/Masks/Alpha.png` as an mask as well, no need for transparent area. 
+
 ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXetjisQJzeWgcmS1CV_g_6320Sb6uobeXEkC3H5lXw4j7zUUBlhlpoHZZP1jcN7e4K41anzZGfw2zTwqzT5aqr_eHMMsDHVjOVaJdxMOblhJ1VAuwEU2xSJzhu5fcW_ZvkK3Xwe0LpOIA2DzsfF0sht46pY?key=leSC4NkGoMp6FWrTEOeY3Q)
 
 
