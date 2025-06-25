@@ -9,7 +9,6 @@ Everything under this is under CC0 (public domain). If you see something that co
 
 [Submit a bug report](https://github.com/the-furry-hubofeverything/workshop-avatar-support/issues)
 
-
 ## Docs
 <a href="./tankWeasel/tankWeaselV1.md">
     <picture>
@@ -28,6 +27,15 @@ Everything under this is under CC0 (public domain). If you see something that co
     </picture>
     <p>Durr V1</p>
 </a>
+
+## Contact information
+Most of my contact information is on <https://gulo.dev>, but if contacting me directly is too intimidating, you can join our support forum in the [Gulo Workshops Discord](discord.gg/ynJYYbEcsE)!
+
+Feel free to ask questions about implementation or usage specific details!
+
+Email: <hubblethewolverine@gmail.com>
+
+Telegram: <https://t.me/hubofeverything>
 
 ---
 Follow me on my socials! <https://gulo.dev>

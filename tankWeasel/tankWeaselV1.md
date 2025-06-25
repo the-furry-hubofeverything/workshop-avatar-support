@@ -416,7 +416,7 @@ Nidonocu, for providing the OOBE window template for the unitypackage.
 
 ## Contact
 
-Most of my contact information is on <https://gulo.dev>
+Most of my contact information is on <https://gulo.dev>, but if contacting me directly is too intimidating, you can join our support forum in the [Gulo Workshops Discord](discord.gg/ynJYYbEcsE)!
 
 Feel free to ask questions about implementation or usage specific details!
 
